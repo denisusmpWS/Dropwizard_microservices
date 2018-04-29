@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="!?*.class" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.java" />
+      <entry name="!?*.groovy" />
+    </wildcardResourcePatterns>
+    <bytecodeTargetLevel target="1.8">
+      <module name="hystrix-intro_main" target="1.8" />
+      <module name="hystrix-intro_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="GradleUISettings">
+    <setting name="root" />
+  </component>
+  <component name="GradleUISettings2">
+    <setting name="root" />
+  </component>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix-intro.iml" filepath="$PROJECT_DIR$/hystrix-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-intro_main.iml" filepath="$PROJECT_DIR$/hystrix-intro_main.iml" group="hystrix-intro" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-intro_test.iml" filepath="$PROJECT_DIR$/hystrix-intro_test.iml" group="hystrix-intro" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: antlr:antlr:2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: aopalliance:aopalliance:1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: ch.qos.logback:logback-classic:1.1.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/ccedfbacef4a6515d2983e3f89ed753d5d4fb665/logback-classic-1.1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.11/2a2f78be7ef674b6486f7b5463f05f40da5e163/logback-classic-1.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: ch.qos.logback:logback-core:1.1.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.11/88b8df40340eed549fb07e2613879bf6b006704d/logback-core-1.1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.11/1b6214469321068fe4d58157768e1e039479fa1/logback-core-1.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.esotericsoftware:kryo-shaded:3.0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo-shaded/3.0.3/977d6b42d82de551fcf77dad84ef06c2839e3a74/kryo-shaded-3.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo-shaded/3.0.3/f80bc703911d3ad8e64a91969c63f74891c8c8bc/kryo-shaded-3.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.esotericsoftware:minlog:1.3.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/9ee9f7fe99d5acfcb974e28acbad9349fb33a765/minlog-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/29a1a95363d497e856c0a7d682e4f7973e334068/jackson-annotations-2.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.10/eb21a035c66ad307e66ec8fce37f5d50fd62d039/jackson-core-2.8.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.10/c9231226e0eb8e90ff73c09ae57487b451d65771/jackson-core-2.8.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.10/f7b83cb2bc4b88d53961e749e1ad32f49ef017b7/jackson-databind-2.8.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.10/def9982a0ee209c6f906cf9119a3f1dc53449a4e/jackson-databind-2.8.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml.jackson.module:jackson-module-afterburner:2.8.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-afterburner/2.8.10/7fcd1eabc5d66242d6cc9b6b3f94f946ceb7109c/jackson-module-afterburner-2.8.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-afterburner/2.8.10/a39c458463f82e636ccd6132de15084322de35b8/jackson-module-afterburner-2.8.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.fasterxml:classmate:1.3.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/d5aa53c93626884209c1e82fdf44d2ccdaf8e9c2/classmate-1.3.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.code.findbugs:jsr305:3.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/a2926c057ca3b662b9db194c869bdbe7d3bb8aef/jsr305-3.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.code.gson:gson:2.8.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.guava:guava:18.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.google.inject:guice:4.1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/eeb69005da379a10071aa4948c48d89250febb07/guice-4.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/3f43f7c8743238f310246cfb13ba3e2e1aca6655/guice-4.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.archaius:archaius-core:0.7.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.4/d6b5e5c541452248fd8565ccd0732623c81a30b5/archaius-core-0.7.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.4/4ffa39ae2bd1112d790136f6915c464f006235e7/archaius-core-0.7.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.eureka:eureka-client:1.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.6.2/632cc9b08ccda671780f095ec70a739508c90375/eureka-client-1.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.6.2/21c892a0cde7ca8b48b2878e8e9ca2201118b58b/eureka-client-1.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.eureka:eureka-core:1.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.6.2/8a8a7dbd1bc4f119f50f11d59b95383b5db6a587/eureka-core-1.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.6.2/38ff123a14f6fd305e914eba8b5587783ac12a5/eureka-core-1.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.hystrix:hystrix-core:1.5.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.12/75379b6671fcaa9cec33035df684a68ec7741ca6/hystrix-core-1.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.12/b3ad4bd44c8f77df4615ea7750aa42d22ec755ed/hystrix-core-1.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.hystrix:hystrix-javanica:1.5.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/5e4d888e0dba811e8ac3a9dbc8cbcc511734ace4/hystrix-javanica-1.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/9904c19688f585a3726a5fed41d523ee726788fa/hystrix-javanica-1.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.5.12/3b3beae83ab5e8c10154c9e9581d7c210276e227/hystrix-metrics-event-stream-1.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.5.12/d546bb42a848ef6e55589c0845df8e6b0914c020/hystrix-metrics-event-stream-1.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.hystrix:hystrix-serialization:1.5.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-serialization/1.5.12/ef4a2758e5bc6cf42ae848d4ba3d5363e0a2b27/hystrix-serialization-1.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-serialization/1.5.12/e6ce242cb0fc2bbc13a4ce6516a68ff590d0d8c2/hystrix-serialization-1.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.netflix-commons:netflix-commons-util:0.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/39e67061780476f207b31465baaed84a91ff659f/netflix-commons-util-0.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/2a3547fdc8270169dedb48da2d8be3c5329d09c9/netflix-commons-util-0.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.netflix-commons:netflix-eventbus:0.3.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-eventbus/0.3.0/3f864adbe81f0849729fcbba3fe693c32be739ea/netflix-eventbus-0.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-eventbus/0.3.0/a942ee54e012e3f73bc940a94e4d4982b7917729/netflix-eventbus-0.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.netflix-commons:netflix-infix:0.3.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-infix/0.3.0/acc65969f7367ddd2f1265e0cd7330509ed530dc/netflix-infix-0.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-infix/0.3.0/4aaacc4b919819f4695cabb26c7827e63b093e43/netflix-infix-0.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/12f6e48253f9cafa0e24d7d232ff504c52143212/netflix-statistics-0.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/7ecc2c3a08052a6953d5e69f6f24ed730d9d0969/netflix-statistics-0.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon-core:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.2.2/e4e35763c347c6a3936735d687f1bd25c188634/ribbon-core-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.2.2/60ccf651607b4f8341a00a754d42bc9849e3ed92/ribbon-core-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.2.2/3698abea929c7e869587b1c3557148a2958f24c3/ribbon-eureka-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.2.2/e2c8412314933d88b743daeac35071a9ee564c9b/ribbon-eureka-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon-httpclient:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.2.2/88c3f39aa09591964923d60f92c13d3a91125d81/ribbon-httpclient-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.2.2/be6b7e3de07c3991341bbcb8201b5f183593e6ae/ribbon-httpclient-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.2/dad3e307fb759c3be36d93a1a7a2a031569d8de8/ribbon-loadbalancer-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.2/abf2aa73614968ac0d0308fe8c32213a900fa38f/ribbon-loadbalancer-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon-transport:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.2.2/de836ea86da897f3ecf5ac9d2cc790ea2293f017/ribbon-transport-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.2.2/89a81971e20c6544f7840e886e07cecb220904c3/ribbon-transport-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.ribbon:ribbon:2.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.2.2/8375769b9a922dc5339eba8536fcd3b204604ec4/ribbon-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.2.2/1ad102cc182ec48fe40bbf5f0794494259eedec/ribbon-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.rxnetty:rx-netty:0.3.18">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxnetty/rx-netty/0.3.18/a95119081e0a1db227f1d9561decb3716da8f6e2/rx-netty-0.3.18.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxnetty/rx-netty/0.3.18/d137cb1d54e770660484232c88b96be2df0ec2dc/rx-netty-0.3.18-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.servo:servo-core:0.10.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.1/7461ed61647f9996c88ad822546ffc7851a45e0e/servo-core-0.10.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.1/a73c96252b82c586751c187401f87e63e4bc3f87/servo-core-0.10.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.servo:servo-internal:0.10.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-internal/0.10.1/bb6f9cd7b309189bad01b93a806ba9d6cb5d915a/servo-internal-0.10.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-internal/0.10.1/16676324669618e73be2a0e2e6cfea3dd1bd1b43/servo-internal-0.10.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.turbine:turbine-core:2.0.0-DP.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.turbine/turbine-core/2.0.0-DP.2/247af294a2eb5e30cc9f2bba68ad166f9a188a48/turbine-core-2.0.0-DP.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.turbine/turbine-core/2.0.0-DP.2/d7c9cb5dbeb9503d920a9623d93844e35c00cf0e/turbine-core-2.0.0-DP.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.rabbitmq:amqp-client:4.0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/4.0.3/d60d606e214b98c7d4a7e7f96d20b6aec569d7a3/amqp-client-4.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/4.0.3/42b89613ed1e8ddc7325e433bb2912e7f0624f17/amqp-client-4.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.rabbitmq:http-client:1.1.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/http-client/1.1.1.RELEASE/a3c71766981a70137aa4570e3830c542a7631d3e/http-client-1.1.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/http-client/1.1.1.RELEASE/2d73841b3514f7720225fe202c679df0ddd82f01/http-client-1.1.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/e1c45701a003097ace96bed4bc8fb937e9867498/jersey-apache-client4-1.19.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/5f771b12dbc77579012668adcd8645518df363ab/jersey-apache-client4-1.19.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.sun.jersey:jersey-client:1.19.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19.1/2df97ebd4e5c01599584c45caa3aeb563d268eef/jersey-client-1.19.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19.1/17893fb3a8a30c46044c00cb29d09a363db66d16/jersey-client-1.19.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.sun.jersey:jersey-core:1.19.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19.1/4282d106f2acd5051bd9bc2935ed9a2920c9385/jersey-core-1.19.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19.1/fcdfd06ce047553ccc4fd59695a76f28e9ee4549/jersey-core-1.19.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.thoughtworks.xstream:xstream:1.4.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.9/c43f6e6bfa79b56e04a8898a923c3cf7144dd460/xstream-1.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.9/a9eb7942e1c58d99d53226b13cc21b4b88cb5cab/xstream-1.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-codec:commons-codec:1.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/11fb3d88ae7e3b757d70237064210ceb954a5a04/commons-codec-1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-collections:commons-collections:3.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-configuration:commons-configuration:1.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/e4dbd8ad69e07fa7f28688f92d773a429143060b/commons-configuration-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-jxpath:commons-jxpath:1.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/c22d7d0f0f40eb7059a23cfa61773a416768b137/commons-jxpath-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/8635d6b633d632d5aad1924fb0dc767b4527689/commons-jxpath-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-lang:commons-lang:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-buffer:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.27.Final/91d5d38fd5cfa7b507e4f82297ba2bf7f30be805/netty-buffer-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.27.Final/5a2de8806a3400eea821623237c84631f342e9af/netty-buffer-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-codec-http:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.27.Final/59b04b31b58942615c0035c61db1167d118ee218/netty-codec-http-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.27.Final/dc0098071bfc67bb4258a954f39f6cbcd800971d/netty-codec-http-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-codec:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.27.Final/8ed3790b480d4370d22ad1b74a79a54663619b3/netty-codec-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.27.Final/cb65f1d21471f58896ae5c82955abd0e9501bfc3/netty-codec-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-common:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.27.Final/f9adee4559928c2e75d58b33e109c17342cb0991/netty-common-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.27.Final/e05626eee607aa6ab05bd9bf7e8c90e5622a699/netty-common-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-handler:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.27.Final/91d5c8e25150759bdfce680f318e7b3e8a493b1f/netty-handler-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.27.Final/83a33b2d9448f51e95d678f7dc0099d2ba552b78/netty-handler-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-transport-native-epoll:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.27.Final/3da4eda5697a09c9f8e217bc6a0f265b5b5102c5/netty-transport-native-epoll-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.27.Final/b9a989211dc0a1b56a52a870bb3be70b1258240a/netty-transport-native-epoll-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.netty:netty-transport:4.0.27.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.27.Final/fc1e00d9d2815f74df6af1cf79da65d6b2d6b102/netty-transport-4.0.27.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.27.Final/7e4aabc1796c596406f2f64abc148f5367c8f27f/netty-transport-4.0.27.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.reactivex:rxjava:1.1.10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.10/2ac360e8a47601a8dfd044e646f05b99d151f2e0/rxjava-1.1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.10/79cf481bc0051e371d11bbfee4c38ac90c050bc5/rxjava-1.1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.reactivex:rxnetty-contexts:0.4.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/3085ad53421b7c6e3bf1ab78a1c6599a6fc92c6b/rxnetty-contexts-0.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.reactivex:rxnetty-servo:0.4.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-servo/0.4.9/b7d6d6e132686c280f16710eaa3e90719f6808f8/rxnetty-servo-0.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-servo/0.4.9/a024f33a03f6d1da6e4a4330db124ec7e126f38d/rxnetty-servo-0.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.reactivex:rxnetty:0.4.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/e994f91f231c9301e23cb1eaee8c3aaa2abf61d8/rxnetty-0.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.inject:javax.inject:1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.validation:validation-api:1.1.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.ws.rs:jsr311-api:1.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/59033da2a1afd56af1ac576750a8d0b1830d59e6/jsr311-api-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/bcc4b7b569ef8bb9b82e48cf23b5aaac29a4fb4e/jsr311-api-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: javax.xml.stream:stax-api:1.0-2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/dd58a0151c110e27c6c18abd45b01792f46d3fcd/stax-api-1.0-2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: joda-time:joda-time:2.9.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.9/f7b520c458572890807d143670c9b24f4de90897/joda-time-2.9.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.9/29a9fcf32288cd678b37b372974786f731b982d1/joda-time-2.9.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net.sf.jopt-simple:jopt-simple:4.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.8/457ac8fb446301588580604fa877cc56285ff74a/jopt-simple-4.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.8/36f0df8094c05a54b253320b9b03500358da0a25/jopt-simple-4.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.antlr:antlr-runtime:3.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.4/8f011408269a8e42b8548687e137d8eeb56df4b4/antlr-runtime-3.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.4/57a73190ad97f56c0cb83a6a5b6c08d5d428319b/antlr-runtime-3.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.antlr:stringtemplate:3.2.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/stringtemplate/3.2.1/59ec8083721eae215c6f3caee944c410d2be34de/stringtemplate-3.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/stringtemplate/3.2.1/105785687b0c85a7f70cddfdc3a391bcab121872/stringtemplate-3.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.commons:commons-lang3:3.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.commons:commons-math:2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.2/4877b85d388275f994a5cfc7eceb73a8045d3006/commons-math-2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.2/61dc823ea6dca58ce9aa8badc3cfcee057689e73/commons-math-2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/4969730c661fff76fa7f9d4c7c61545817f5b033/httpclient-4.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.8/70539e2a07865bab38b4153da1ce599cf081790a/httpcore-4.4.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.8/4b69507bc39c2e0c14798dd91ff4da82ac356f81/httpcore-4.4.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.23">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/79261793a47f507890ee08f749b9d81774e4f7f0/tomcat-embed-core-8.5.23.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.23/e5c70a402738f0ab5153e11b16ec28fb5eb8da2/tomcat-embed-core-8.5.23-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.23">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.23/98d979cde444dffa6d434c8377d0123b2dfa614c/tomcat-embed-el-8.5.23.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.23/1fee361d6db46869c31a12fceb3742fe08a5656/tomcat-embed-el-8.5.23-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.23/52f07abcae10dc7e1764304b0877def175c2c833/tomcat-embed-websocket-8.5.23.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.23/6ea32660c2ddad48a47e3cb05ad34085d364b49/tomcat-embed-websocket-8.5.23-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.23">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.5.23/aaf17df9fe0240e9e9d5375d24d5f177174b73d9/tomcat-annotations-api-8.5.23.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.5.23/d02a749fbe3a2657582b8dd9c5d828536be98e5e/tomcat-annotations-api-8.5.23-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.aspectj:aspectjweaver:1.8.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.11/9807e0e13c8a295f15882721db50fa3d142c44a9/aspectjweaver-1.8.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.11/9ad2271536d8ca885d792678b33acae256a93ac1/aspectjweaver-1.8.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.55">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.55/6392d8cba22b722c6570d660ca0b3921ff1bae4f/bcpkix-jdk15on-1.55.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.55/8c1d7fbc921ed4b793eb1aa267e15bc210fdae78/bcpkix-jdk15on-1.55-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.bouncycastle:bcprov-jdk15on:1.55">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.55/935f2e57a00ec2c489cbd2ad830d4a399708f979/bcprov-jdk15on-1.55.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.55/1b46f5e1efe67c17ec2b793d1d4581e4978c52ca/bcprov-jdk15on-1.55-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.2/8493982bba1727106d767034bd0d8e77bc1931a9/jackson-core-asl-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.2/11fb8a4f12be3b4a342fd65b5448273b8c32a2bd/jackson-core-asl-1.9.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.2/95400a7922ce75383866eb72f6ef4a7897923945/jackson-mapper-asl-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.2/f033b16b4df1e2790b3027f59dcbac55fbf62585/jackson-mapper-asl-1.9.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.jettison:jettison:1.3.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/7d36a59a0577f11b12088b9e215d6860345b9e1d/jettison-1.3.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/36526db083c7e1916195bf7a76ba0359e2b9ada6/jettison-1.3.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/b40604d61c01cc081a4a7bdfc562aa9847ee8857/stax2-api-3.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/84fee5eb1a4a1cefe65b6883c73b3fa83be3c1a1/woodstox-core-asl-4.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/ffa1c21ea3509859bb54d62e3b8254a3263c7fb9/woodstox-core-asl-4.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.freemarker:freemarker:2.3.26-incubating">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.26-incubating/713237e013f725b72f4f9ec931a49c14b1805359/freemarker-2.3.26-incubating.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.26-incubating/415b1c5a2006eb79a5b0c28f95f0c3f92b236440/freemarker-2.3.26-incubating-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hdrhistogram:HdrHistogram:2.1.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.9/e4631ce165eb400edecfa32e03d3f1be53dee754/HdrHistogram-2.1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.9/966a6429061192e62cc346462587253a726db6b7/HdrHistogram-2.1.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.3.5.Final/622a9bcef2eed6d41b5b8e0662c36212009e375/hibernate-validator-5.3.5.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.3.5.Final/901d21d67b3dfb7a7fdf2cde1bd0eb9ca989f2f3/hibernate-validator-5.3.5.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jboss.logging:jboss-logging:3.3.1.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.1.Final/c46217ab74b532568c0ed31dc599db3048bd1b67/jboss-logging-3.3.1.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.1.Final/9d32b33527abb934fb12035d8849f7b9c4804049/jboss-logging-3.3.1.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.objenesis:objenesis:2.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.ow2.asm:asm:5.0.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/ffd0827a7c67d5915b7dc611afbda56a1f247191/jcl-over-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/bcea1530927f59b5128841d3571f879ce3af2e86/jul-to-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/a87bb47468f47ee7aabbd54f93e133d4215769c3/log4j-over-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.25/42a10e06ab88cbe5f31253ffb8c0bca96b34f81d/log4j-over-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.slf4j:slf4j-api:1.7.25">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.amqp:spring-amqp:1.7.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/1.7.4.RELEASE/5dc0c4105246c528108f7689b4dadf2a7c24ea52/spring-amqp-1.7.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/1.7.4.RELEASE/8ba74d15a03d823c1cbff51487dc7bedf0b51a9a/spring-amqp-1.7.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.amqp:spring-rabbit:1.7.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/1.7.4.RELEASE/9e51b2be1572887e0938a170949be7aaa0c90b30/spring-rabbit-1.7.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/1.7.4.RELEASE/8c132c8ab08156b99b5b3dd65c2254135b0a1518/spring-rabbit-1.7.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-actuator:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.5.8.RELEASE/aac530fe877ed91c92831019755c49f29b08e6/spring-boot-actuator-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.5.8.RELEASE/f02a2eae23f27181fd0b257ca1cf76295aff4260/spring-boot-actuator-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.8.RELEASE/e4f2efa4c319f4e3613d94fbccfdb5ccda6873e3/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.8.RELEASE/712d3d3b56cee0bc12cfdef48c245085d334f96c/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.5.8.RELEASE/927c40a1af518dc240dfdf7aaf0a9673c3a127c5/spring-boot-starter-actuator-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.5.8.RELEASE/b01ebd2a013e405e08ecb0ee6f12f18d3b45d4a0/spring-boot-starter-actuator-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-amqp:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-amqp/1.5.8.RELEASE/ef02d08e18f79cab2a2247f67b44aa209425bdc5/spring-boot-starter-amqp-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-amqp/1.5.8.RELEASE/d55f327ae2d053b291c7bf3dd1a690dad87eba22/spring-boot-starter-amqp-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/1.5.8.RELEASE/5d79e3fcb6e5de432afd99ab6bdf93ff4b05c5de/spring-boot-starter-freemarker-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/1.5.8.RELEASE/90d0efadadf1777dfe9bfe576237505db65f962b/spring-boot-starter-freemarker-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.5.8.RELEASE/ebc00a0e46753d90431fdcc5e3d6b9fd3bf1564a/spring-boot-starter-logging-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.5.8.RELEASE/afb36a662ce0eeae7270aa9065dec144f248bead/spring-boot-starter-logging-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.5.8.RELEASE/cf3b7eb7e192a60ab1dd09e4f8bce82710a5feb0/spring-boot-starter-tomcat-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.5.8.RELEASE/f1de347673551d75facd4c159bf06bfe500ea033/spring-boot-starter-tomcat-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-validation:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.5.8.RELEASE/69aade16cb32a9438375bbdea975a4bc9cfd5048/spring-boot-starter-validation-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.5.8.RELEASE/10bbf610106cfd8f1bc2ac9dfbfe056b12137aff/spring-boot-starter-validation-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.8.RELEASE/7e0dc79e3b47be4539ad3c033639133ae6b7a17e/spring-boot-starter-web-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.8.RELEASE/c5fd51945ab18b6226a198e5a48b09e30404ee6e/spring-boot-starter-web-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot-starter:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.5.8.RELEASE/18048efe1f06569022a53cc3fb2fe9c0162935a3/spring-boot-starter-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.5.8.RELEASE/7bbd9ff60ed9cd30a505c2784a17f292875dc948/spring-boot-starter-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.boot:spring-boot:1.5.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.8.RELEASE/748ebde51761e12627ad23d064024f342b18f9b4/spring-boot-1.5.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.8.RELEASE/ec6a9e43b8452d4e66ed0233fd62fa3fd91c0625/spring-boot-1.5.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-commons:1.2.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.2.4.RELEASE/d3b5ca7d53415c7a28d539c211577e9983e6d6cb/spring-cloud-commons-1.2.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.2.4.RELEASE/735fb2c55f20ea32a4576ea91c8e1b0bc91ab8ac/spring-cloud-commons-1.2.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-context:1.2.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.2.4.RELEASE/60d7e955ed26f1d37c48fbbd42884f348f34e593/spring-cloud-context-1.2.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.2.4.RELEASE/2f17d22bb6c2a34dcba7cca7163ec9c3cb35dbf8/spring-cloud-context-1.2.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.5.RELEASE/2f573a8b99146dd733b34480b5e11b3c34944e70/spring-cloud-netflix-core-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.5.RELEASE/893bcdeb2793933b4c47c34161b65db2f962a7c/spring-cloud-netflix-core-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.3.5.RELEASE/2494e6bd9c7a23c1d1df85c36eb980e483a7bef7/spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.3.5.RELEASE/7e46aecc1f766662d58f498b38d6c29cc8345b98/spring-cloud-netflix-eureka-client-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix-dashboard/1.3.5.RELEASE/c54b830871bffcae3821877af477ab4dcc68dede/spring-cloud-netflix-hystrix-dashboard-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix-dashboard/1.3.5.RELEASE/6f61dcecda020b034f095b62d8d00fea06fe2f79/spring-cloud-netflix-hystrix-dashboard-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-turbine-stream:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-turbine-stream/1.3.5.RELEASE/4c47b9b46ada0051c3267919c8d8f6af2f865239/spring-cloud-netflix-turbine-stream-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-turbine-stream/1.3.5.RELEASE/2537571cfc7b28fc978eada6109b2a0bcb0cd491/spring-cloud-netflix-turbine-stream-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-archaius:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.3.5.RELEASE/944357583c3c38b5b316c18919e844fe2ff66a17/spring-cloud-starter-archaius-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.3.5.RELEASE/45c7357587a3c17be6b4b923d2d06e936547ab1b/spring-cloud-starter-archaius-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.3.5.RELEASE/b316903152a7bf2b9e32117026c59a2c786d877c/spring-cloud-starter-eureka-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.3.5.RELEASE/a234da41718eb4fd90bf4b8118fe93ca0c77c796/spring-cloud-starter-eureka-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix-dashboard/1.3.5.RELEASE/39684997f40839b15c430fa850cfef3a2b0ee188/spring-cloud-starter-hystrix-dashboard-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix-dashboard/1.3.5.RELEASE/4d7bbd1a8b33949806506a3a9408ebdd58a9a5eb/spring-cloud-starter-hystrix-dashboard-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-hystrix:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.3.5.RELEASE/3854bdbcc4c5b068c2f6527933aefd4818d3622e/spring-cloud-starter-hystrix-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.3.5.RELEASE/a7cfe0014e484393d2e9845b8077a56a0de4ba7c/spring-cloud-starter-hystrix-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-ribbon:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.3.5.RELEASE/42b1fbe8f07b3f7c464b0b7a667e3177e22f4da4/spring-cloud-starter-ribbon-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.3.5.RELEASE/2a292291b4760dff26caf2dab98535403db0b249/spring-cloud-starter-ribbon-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-stream-rabbit:1.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-stream-rabbit/1.2.1.RELEASE/2ec6ac758c77d0a5837fd3520632349111080d74/spring-cloud-starter-stream-rabbit-1.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-stream-rabbit/1.2.1.RELEASE/f8ea99c7ca962475fd7f9c90d7662cf4aa8b46d/spring-cloud-starter-stream-rabbit-1.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter-turbine-stream:1.3.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-turbine-stream/1.3.5.RELEASE/82cf7f6e383f3dec8ed839c9b9a565443e4c4da5/spring-cloud-starter-turbine-stream-1.3.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-turbine-stream/1.3.5.RELEASE/c04d3aa22ae6273d209e03f85279eec126e1f58b/spring-cloud-starter-turbine-stream-1.3.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-starter:1.2.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.2.4.RELEASE/8dedf04851bf6bc85bf3b09813ccf7775568b22b/spring-cloud-starter-1.2.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.2.4.RELEASE/890b9492496bcc1de0d4191aae982606249cc2d/spring-cloud-starter-1.2.4.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:1.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-rabbit-core/1.2.1.RELEASE/595ccccf0df88b371904f0e0dede2b222cd390e8/spring-cloud-stream-binder-rabbit-core-1.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-rabbit-core/1.2.1.RELEASE/bb7dbef74f784aea2ade184ce456096e07274e0e/spring-cloud-stream-binder-rabbit-core-1.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-stream-binder-rabbit:1.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-rabbit/1.2.1.RELEASE/a4bd1f1ffadfdf5eee90cd3953281c5f29ccc37/spring-cloud-stream-binder-rabbit-1.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-binder-rabbit/1.2.1.RELEASE/2ac44795262c0dc29e0cabff9cd7045f41149576/spring-cloud-stream-binder-rabbit-1.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-stream-codec:1.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-codec/1.2.2.RELEASE/cebdab01a34ada0288f6cc4df736aee909bd420d/spring-cloud-stream-codec-1.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream-codec/1.2.2.RELEASE/3f75626aa7750bb6d530e8ddf79b79782fd79fcb/spring-cloud-stream-codec-1.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.cloud:spring-cloud-stream:1.2.2.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream/1.2.2.RELEASE/9042343672f342ed60a6a575e47825c1fa874b6e/spring-cloud-stream-1.2.2.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream/1.2.2.RELEASE/aa7a77cec7cf21bfba1753aa63c7c43db43f2415/spring-cloud-stream-1.2.2.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.integration:spring-integration-amqp:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-amqp/4.3.12.RELEASE/c3d9eafe094b243ceefd4bb4ccc8ea7a5834c7d8/spring-integration-amqp-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-amqp/4.3.12.RELEASE/fc8f0d3e77b1e95a0ee64f0bf80e52f9d2019230/spring-integration-amqp-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.integration:spring-integration-core:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/4.3.12.RELEASE/8ed9d0e456a297ce6f58af967e6ee44ffd80ef6/spring-integration-core-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/4.3.12.RELEASE/14a8b2d7a4f35b3b178e9a3758fd6ec3969165d1/spring-integration-core-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.integration:spring-integration-jmx:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-jmx/4.3.12.RELEASE/7c20600b244bcc32b0aa5621ba42c9695c676fec/spring-integration-jmx-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-jmx/4.3.12.RELEASE/eca04b4436a1ff8238ebacfda3931be7172fb998/spring-integration-jmx-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.integration:spring-integration-tuple:1.0.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-tuple/1.0.0.RELEASE/4ac09adb2ab6857604784b3e61ef02bcdc974928/spring-integration-tuple-1.0.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-tuple/1.0.0.RELEASE/716ad7911f5c5539c0f2f159e488560fd7275d14/spring-integration-tuple-1.0.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.retry:spring-retry:1.2.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.2.1.RELEASE/c43fedb7dfc7e0483679c2f20e09776d98f0813f/spring-retry-1.2.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.2.1.RELEASE/192a1501be512c64671181af305ca786bd3e7b01/spring-retry-1.2.1.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.security:spring-security-crypto:4.2.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.2.3.RELEASE/a5c850acc91bff1970fe751d7407df81c4bce3cc/spring-security-crypto-4.2.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.2.3.RELEASE/71b35802ec33669d313403e5e63753d119a18d6a/spring-security-crypto-4.2.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework.security:spring-security-rsa:1.0.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.3.RELEASE/b0b1ee770597b5de1b51e9a889dfd2dc35d251b0/spring-security-rsa-1.0.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.3.RELEASE/4b529d56f5cb4ff090f06d42a0e87b7e90501d3a/spring-security-rsa-1.0.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-aop:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.12.RELEASE/b3fef085902993c2ef874c45c7bfd79296d5a5a4/spring-aop-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.12.RELEASE/c58973fe94ecfc5c40bb8fe5ff9fdc64054d6fe7/spring-aop-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-beans:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/547dd432d47d0f01d9ccbedc4b705f9f7c1240a/spring-beans-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/afe9285e063739083bc9ea986731901f9a216fce/spring-beans-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-context-support:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.12.RELEASE/6f3a71b93b69f38ac545b6043fab7e474addee15/spring-context-support-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.12.RELEASE/13f7115683774537dae4ba909fbbfcf221617fd4/spring-context-support-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-context:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.12.RELEASE/5e6d26f36636f36b7efec1d6a0c5991284fbd95b/spring-context-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.12.RELEASE/da4662aca663b3aca9320106a5af776edb51d0f8/spring-context-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-core:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/4cebc69478c6d350dbd5af28e3db7d5694f416e3/spring-core-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/2106c4c25ad9f0021109c2087d4c39b71ddcc6f4/spring-core-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-expression:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.12.RELEASE/790f69f6ad7f9da8d4a92c603ad7244c398c8309/spring-expression-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.12.RELEASE/7e2988a8c7fc06410f3699cbeab6bf321ac82075/spring-expression-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-messaging:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.3.12.RELEASE/652613a3cee31e01c04ac02d982f4dc2a1001040/spring-messaging-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.3.12.RELEASE/5c04de44acf996c9f30027f0447a306b62944d1b/spring-messaging-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-tuple:1.0.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tuple/1.0.0.RELEASE/5feaacebc66a885e9f2017063586df2300ce5c68/spring-tuple-1.0.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tuple/1.0.0.RELEASE/3ef2e8a6464e0c04e8e32edaa76b374d8ac9590e/spring-tuple-1.0.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-tx:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/7147b6839b2bf9db3621b79c73b4dddbe69572b6/spring-tx-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/bda5ae239af72b9733e4f3c5b7e5b19c4dbcc857/spring-tx-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-web:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.12.RELEASE/86c29588cca74d0fc848b194cb13fcdfd12bc990/spring-web-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.12.RELEASE/4c8e2f1d4d02bdda3e1f598cb2fedc0537d1efdd/spring-web-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.springframework:spring-webmvc:4.3.12.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.12.RELEASE/986e5dcd4435e780f6be64f8185eaa51523cf851/spring-webmvc-4.3.12.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.12.RELEASE/11abc6411b0a1491b776de2d8f1287c7a90d9079/spring-webmvc-4.3.12.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.webjars:d3js:3.4.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/d3js/3.4.11/6ef8866c242eddc2bb7f6ef5b93028b73d316e23/d3js-3.4.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/d3js/3.4.11/99b625361e9758af8bfdd2331906a9a5169bf73c/d3js-3.4.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.webjars:jquery:2.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/2.1.1/dd89e356066869550b5509c4370f995ad6698d9a/jquery-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/2.1.1/cdc90d9e03982a07dcf608e61bf04cb48bcb7e4/jquery-2.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.yaml:snakeyaml:1.17">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: stax:stax-api:1.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: xmlpull:xmlpull:1.1.3.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Gradle: xpp3:xpp3_min:1.1.4c">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.6</last-edited>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
+  </component>
+</project>
