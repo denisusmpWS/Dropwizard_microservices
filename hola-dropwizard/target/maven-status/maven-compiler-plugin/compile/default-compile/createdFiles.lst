@@ -1,0 +1,4 @@
+com\redhat\examples\dropwizard\HolaDropwizardApplication.class
+com\redhat\examples\dropwizard\resources\HelloSayingFactory.class
+com\redhat\examples\dropwizard\resources\HolaRestResource.class
+com\redhat\examples\dropwizard\HolaDropwizardConfiguration.class
